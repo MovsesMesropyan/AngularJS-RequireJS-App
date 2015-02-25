@@ -12,6 +12,7 @@
 					templateUrl: 'partials/email.html',
 					controllerAs: 'emailCtrl',
 					controller: 'EmailController'
-				});
+				}).
+				otherwise('/home');
         }]);
 });
